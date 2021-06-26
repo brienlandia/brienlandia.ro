@@ -1,0 +1,317 @@
+*{
+    margin:0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    }
+    body{
+        background-image: url(poze/textura2.png); 
+
+
+        
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    }
+    .containerNavigatie{
+        width: 100%;
+        height:80px;
+        background-image: url(poze/orez.png);
+        text-align:center;
+        box-shadow:  0px 10px 20px rgba(204, 13, 230, 0.199);
+        line-height: 80px;
+        }
+        .containerNavigatie .meniu{
+            background-image: url(poze/etaiat.png);
+            display:flex;
+            position:relative;
+        }
+        .containerNavigatie .meniu li{
+        font-size: 30px;
+        flex: 1;
+        list-style:none;
+        }
+        .containerNavigatie .meniu li a{
+            color: rgb(89, 17, 204);
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+        .containerNavigatie .meniu li:hover a{
+            color:rgb(235, 20, 224);
+        }
+        .containerNavigatie .meniu li:first-child a{
+            color: rgb(118, 20, 209);
+        }
+        
+        .containerNavigatie .meniu .linie{
+            position:absolute;
+        height: 5px;
+        width: 25%;
+          background: rgba(206, 64, 235, 0.603);
+          bottom: 0;
+          left:0;
+          transition: all 0.3s ease;
+        }
+        .containerNavigatie .meniu li:nth-child(2):hover ~ .linie{
+        left:25%;
+        
+        
+        }
+        
+        .containerNavigatie .meniu li:nth-child(3):hover~.linie{
+            left:50%;}
+
+            .containerNavigatie .meniu li:nth-child(4):hover~.linie{
+                left:75%;}
+    .jumbotron{
+    height:700px;
+     background: 
+     url(poze/noapte.png);
+   
+     /* https://source.unsplash.com/1920x1080/?book */
+    color:white;
+    text-align:center;
+    text-shadow: 2px 2px black;
+    text-decoration-thickness:black;
+    }
+    
+    .jumbotron h1{
+    font-weight:100;
+    
+    /*linear-gradient(
+        rgba(0,0,250,0.25),
+    rgba(250,180,125,0.45)
+    ),  */
+    
+    }
+    
+    .jumbotron .masina{
+    
+        width: 160px;
+        height: 150px;
+        
+       
+    }
+    
+  
+    
+    /* -webkit-filter:invert(20%) sepia(70%) saturate(3300%) hue-rotate(350deg) brightness(130%) contrast(100%); */
+    /*   -webkit-filter:invert(100%) sepia(10%) saturate(500%) hue-rotate(220deg) brightness(100%) contrast(80%); */
+    
+    .continut-text{
+    
+    margin:5% 10% 5% 10%;
+    text-align: justify;
+    
+    }
+    .sectiune_carduri{
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    .sectiune_carduri h1{
+    font-size: 30px;
+    font-weight: 400;
+    text-align:center;
+    }
+    .lista_carduri{
+      display: flex;
+      flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    }
+    
+    .element_card{
+    display:flex;
+    padding: 16px;
+    }
+    
+    @media (min-width:50px){
+        .element_card{
+         width:100%;
+         }
+     }
+    @media (min-width:500px){
+        .element_card{
+         width:50%;
+         }
+     }
+    
+    @media (min-width:800px){
+       .element_card{
+        width:33%;
+        }
+    }
+    .element_card .card{
+        display: flex;
+        box-shadow: 0 20px 40px rgb(176, 114, 228) 
+    }
+     .sectiune_carduri img{
+         max-width: width 100%;
+         height:auto;
+    
+     }
+     
+     .sectiune_carduri .buton_card{
+         padding:14px;
+         font-size:14px;
+         text-transform:uppercase;
+         
+         width:100%;
+         font-weight:500;
+         border:1px solid rgb(145, 16, 231);
+         background: transparent;
+         color:black;
+     }
+    .sectune_carduri .buton_card:hover{
+        color:black;
+        background-color: rgba(226, 27, 126, 0.644);
+    }
+    
+    
+    
+    
+    
+    .continut_card{
+    
+    padding: 16px;
+    background: linear-gradient( to bottom left, rgb(216, 137, 199), rgb(248, 248, 248));
+    text-align: justify;
+    
+    }
+    
+    .titlu_card{
+    color:rgb(69, 223, 223);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align:center;
+    }
+    
+    
+    
+    text_card{
+    color: rgb(69, 223, 223);
+    font-size:20px;
+    margin-bottom:18px;
+    font-weight:400;
+    }
+    
+    footer div{
+    text-align:center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+    }
+    
+    footer{
+    background-color: rgba(165, 130, 189, 0.541);
+    color: black;
+    
+    }
+    
+    
+    
+      /* Pana aici am scris pe 13.03.2020 */
+    
+    
+      ::-webkit-scrollbar{
+    width: 20px;
+       }
+       ::-webkit-scrollbar-thumb{
+    background-color: rgb(113, 16, 204);
+    
+       }
+       ::-webkit-scrollbar-track{
+    /* background-color: rgb(215, 179, 248); */
+    background-color: #fcd9ff;
+    
+       }
+
+       .linkuri{
+           color: rgb(210, 46, 243);
+          
+       }
+
+
+       .anagrama{
+           text-align: center;
+       }
+.youtube{
+margin-left: 120px;
+}
+
+
+
+[data-aos="new-animation"] {
+    opacity: 0;
+    transition-property: transform, opacity;
+  
+
+  
+    @media screen and (min-width: 768px) {
+      transform: translateX(100px);
+  
+      .aos-animate {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  }
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  
+  #wp-toolbar span.noticon, #wpadminbar #wp-admin-bar-notes .noticon {
+   	   color: #fff;
+   	     text-shadow: none !important;
+        margin: 0;
+   	     opacity: 1;
+   	     width: 100%;
+   	     position: absolute;
+   	     top: 4px;
+   	     left: 0;
+   	     font-size: 23px !important;
+    }
+    nav {  
+        
+        width: 100%; 
+         height: 75px;  
+        background-color: #ffc5f7dc;}
+    
+   
+        nav a {    
+            display: block;    
+            float: left;
+            font-family: sans-serif;    
+            font-size: 20px;    
+            color: rgb(91, 35, 143);
+            background-color: #ffc5f7dc;    
+            padding-top: 20px;   
+            padding-right: 20px;   
+            padding-bottom: 20px;  
+            padding-left: 20px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        } 
+
+
+        span {
+  content: "\00A9";
+}

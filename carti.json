@@ -1,0 +1,54 @@
+{
+    "masini" : [
+    {
+       "marca": "Vraja oaselor sub clar de luna", 
+       "nume": "Corint ",
+       "pret": "50",
+       "cai" : "350",
+       "descriere": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+       "poza": "https://www.recoveryranch.com/wp-content/uploads/2020/03/Horse-1200x900.jpg"
+        
+     },
+     {
+        "marca": "Test", 
+        "nume": "Corintponei",
+        "pret": "50",
+        "cai" : "350",
+        "descriere": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "poza": "https://www.recoveryranch.com/wp-content/uploads/2020/03/Horse-1200x900.jpg"
+        
+     },
+     {"marca": "Urzeala zorilor", 
+       "nume": "Corintponei",
+       "pret": "590",
+       "cai" : "350",
+       "descriere": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+       "poza": "https://www.recoveryranch.com/wp-content/uploads/2020/03/Horse-1200x900.jpg"
+       },
+       {"marca": "Lorem ipsum", 
+          "nume": "Brienlandia",
+          "pret": "50",
+          "cai" : "350",
+          "descriere": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "poza": "https://imageproxy.themaven.net//https%3A%2F%2Fequimanagement.com%2F.image%2FMTU5MjI5NjE0MTk4MTA1MzAy%2Fhorse-chestnut-outside-head-and-body-shot-istock-145245304-2400.jpg"
+          },
+          {
+             "marca": "Zero barat", 
+             "nume": "Animale fantastice",
+             "pret": "50",
+             "cai" : "350",
+             "descriere": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+             "poza": "https://www.recoveryranch.com/wp-content/uploads/2020/03/Horse-1200x900.jpg"
+          },
+          {
+             "marca": "Harry Potter", 
+             "nume": "Animale fantastice",
+             "pret": "50",
+             "cai" : "350",
+             "descriere": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+             "poza": "../poze/carti.jfif"
+          }
+    
+    ]
+    }
+    
